@@ -4,7 +4,7 @@ const numero = '22';
 
 let nome = prompt("Inserire il proprio nome");
 let cognome = prompt("Inserire il proprio cognome");
-let colore = prompt("Inserire il proprio cognome");
+let colore = prompt("Inserire il proprio colore preferito");
 
 let result = nome+cognome+colore+numero;
 document.getElementById('testo').innerHTML = result;
